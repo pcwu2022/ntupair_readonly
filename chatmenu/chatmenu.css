@@ -1,0 +1,72 @@
+:root {
+    --local-color1: rgb(193, 255, 194);
+    --local-color2: rgb(193, 255, 178);
+    --local-color3: rgb(210, 255, 192);
+    --local-color4: rgb(153, 216, 255);
+    --local-color5: rgb(255, 154, 243);
+    --local-color6: rgb(130, 200, 240);
+    --local-color7: rgb(240, 130, 230);
+    --local-color8: rgb(49, 22, 61);
+    --local-color9: rgb(255, 255, 108);
+    --local-color10: rgb(0, 255, 0);
+}
+
+.chatOption {
+    position: relative;
+    background-color: var(--local-color3);
+    margin: 20px;
+    padding: 20px;
+}
+
+.targetName {
+    position: relative;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.targetStatus {
+    position: relative;
+    margin: 20px;
+}
+
+.targetSticker {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.chatOption:hover {
+    cursor: pointer;
+}
+
+.targetStatus {
+    position: relative;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.requestingStatus {
+    background-color: var(--local-color9);
+}
+
+.newRequestStatus {
+    background-color: var(--local-color5);
+}
+
+.unreadMessage {
+    color: var(--local-color8);
+    font-weight: bold;
+}
+
+.online {
+    background-color: var(--local-color10);
+}
+
+.activeBefore {
+    background-color: var(--local-color6);
+}
+
+.onlineSticker {
+    border: 3px solid var(--local-color10);
+}

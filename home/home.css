@@ -1,0 +1,147 @@
+/* variables */
+:root {
+    --local-color1: rgb(193, 255, 194);
+    --local-color2: rgb(193, 255, 178);
+    --local-color3: rgb(210, 255, 192);
+    --local-color4: rgb(153, 216, 255);
+    --local-color5: rgb(255, 154, 243);
+    --local-color6: rgb(130, 200, 240);
+    --local-color7: rgb(240, 130, 230);
+    --local-color8: rgb(49, 22, 61);
+    --local-color9: rgb(255, 255, 108);
+    --local-color10: rgb(197, 255, 253);
+    --local-color11: rgb(0, 255, 0);
+}
+
+#control {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    margin: 0px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--local-color8);
+    color: var(--color1);
+}
+
+.controlButton {
+    margin-right: 20px;
+    border: 2px solid var(--color1);
+    color: var(--color1);
+}
+
+#tests {
+    position: relative;
+    display: inline-block;
+}
+
+.matchButton {
+    width: 100px;
+    background-color: var(--color2);
+    border: 2px solid var(--color1);
+    color: var(--color1);
+}
+
+.select {
+    background-color: var(--color2);
+    border: 2px solid var(--color1);
+    color: var(--color1);
+}
+
+.selected {
+    background-color: var(--color1);
+    border: 2px solid var(--color2);
+    color: var(--color2);
+}
+
+#result {
+    position: relative;
+    display: inline-block;
+}
+
+.testOption {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 150px; 
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.availableOption {
+    background-color: var(--local-color1);
+}
+
+.unavailableOption {
+    background-color: var(--local-color3);
+}
+
+.userDiv {
+    position: relative;
+    float: left;
+    width: 150px; 
+    height: 150px;
+    margin: 20px;
+    /* border: 2px solid var(--color2); */
+    padding: 20px;
+}
+
+.userMale {
+    background-color: var(--local-color4);
+}
+
+.userFemale {
+    background-color: var(--local-color5);
+}
+
+.notifications {
+    background-color: var(--local-color10);
+}
+
+.profileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+/* animations */
+.availableOption:hover {
+    cursor: pointer;
+    background-color: var(--local-color2);
+    transform: scale(0.95);
+}
+
+.unavailableOption:hover {
+    cursor: not-allowed;
+}
+
+.userDiv:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+.userMale:hover {
+    background-color: var(--local-color6);
+}
+
+.userFemale:hover {
+    background-color: var(--local-color7);
+}
+
+.notifications:hover {
+    cursor: pointer;
+}
+
+.onlineSticker {
+    border: 3px solid var(--local-color11);
+}
+
+.onlineSpan {
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    background-color: var(--local-color11);
+}

@@ -1,0 +1,21 @@
+#info {
+    height: 100px;
+    overflow: auto;
+    transition: 0.2s;
+    transition-delay: 1s;
+}
+
+#info:hover {
+    height: 300px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#info::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#info {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

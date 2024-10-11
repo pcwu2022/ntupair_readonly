@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTU Pair: Create Account</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="./files/default/ntupair.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id = "header">
+        <h1 id = "title" title="back to homepage"><img src="./files/default/ntupair_inverse_bg.png" alt="logo" id="logo">NTU Pair</h1>
+    </div>
+    <div id = "main">
+        <div>
+            <b>Welcome to NTU Pair, a platform designed to couple up NTU students who share the same value or have similar interests!</b>
+
+            <br><br>
+            NTU is vast! With over 30,000 students enrolled, making friends with people all around the campus is pretty difficult, not to mention finding the most suitible one.
+            While finding the perfect match merely by chance is never a good idea, NTU Pair helps you find those with traits similar to you by using our paring algorithm. 
+            Our seek for the perfect match begins by answering several questions. 
+            By doing the tests, our system can collect information about your personality and use these data to find those with similar traits. 
+            After filling out the forms, you can choose which data to be used in the matching process, and which types of data to be selected from the database.
+            With the integration of our chatbox interface, our system provides instant messaging service for you to chat with those on your match list. 
+            You can make message requests, approve or decline others' requests on your free will.
+            Test, match, chat, and get engaged, NTU Pair is always the best choice for you.
+            <br><br>
+            NTU Pair is a free and secure platform for you to acquaint others and make connections with whom you're mindsets are similar to.
+            Your password and messaging history are encrypted during transfer and in the database, and your student id as well as email address are immediately discarded after essential use.
+            We provide an email verification system to filter out dummy accounts and ensure the safety of our verified users in NTU.
+            <span class="displayText">However, it is not recommended to disclose personal information without proper reasons, for the information might be misused by other users.</span>
+            To report errors or for custom service, please contact <a href="mailto:ntupair@gmail.com">ntupair@gmail.com</a>.
+            <br><br>
+            <iframe id="trailer" src="https://www.youtube.com/embed/ELeGZ4Aa1mE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <h2 id = "subtitle">Create Account</h2>
+        <div id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" class="input">
+            <span class="displayText" id="usernameError"></span><br>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" class="input">
+            <span class="displayText" id="passwordError"></span><br>
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender" class="input">
+                <option selected disabled class="option">--Gender--</option>
+                <option value="Male" class="option">Male</option>
+                <option value="Female" class="option">Female</option>
+                <option value="Other" class="option">Other</option>
+            </select>
+            <span class="displayText" id="genderError"></span><br>
+            
+            <button id="submit" class="submit">Submit</button><br>
+        </div>
+    </div>
+    
+    <script src="ajax.js"></script>
+    <script src="display.js"></script>
+    <script src="account.js"></script>
+</body>
+</html>

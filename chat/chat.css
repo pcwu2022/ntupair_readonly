@@ -1,0 +1,156 @@
+:root {
+    --local-color1: rgb(193, 255, 194);
+    --local-color2: rgb(193, 255, 178);
+    --local-color3: rgb(210, 255, 192);
+    --local-color4: rgb(153, 216, 255);
+    --local-color5: rgb(255, 154, 243);
+    --local-color6: rgb(130, 200, 240);
+    --local-color7: rgb(240, 130, 230);
+    --local-color8: rgb(49, 22, 61);
+    --local-color9: rgb(255, 255, 108);
+    --local-color10: rgb(197, 255, 253);
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: -95px;
+    transition: 0.2s;
+}
+
+#header:hover {
+    top: 0px;
+}
+
+#main {
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#messages {
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#inputBox {
+    background-color: var(--color2);
+    position: fixed;
+    top: 100%;
+    margin-top: -80px;
+    width: 100%;
+    padding-top: 20px;
+    height: 80px;
+}
+
+#inputWrapper {
+    padding-left: 20px;
+    margin-right: 140px;
+}
+
+#inputTa {
+    position: relative;
+    width: 100%;
+    background-color: var(--color3);
+    color: var(--color1);
+    border: 2px solid var(--color1);
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#inputButton {
+    position: relative;
+    background-color: var(--color3);
+    color: var(--color1);
+    width: 50px;
+    height: 50px;
+    top: -50px;
+    margin-right: 20px;
+    border: 2px solid var(--color1);
+    border-radius: 50px;
+    float: right;
+}
+
+.messageWrap {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.floatWrap {
+    position: relative;
+    width: fit-content;
+    max-width: 60%;
+}
+.leftFloat {
+    float: left;
+    text-align: left;
+}
+.rightFloat {
+    float: right;
+    text-align: right;
+}
+
+.senderEl {
+    font-weight: bold;
+}
+
+.textEl {
+    width: fit-content;
+    max-width: 100%;
+    word-wrap: anywhere;
+    border: 2px solid var(--color2);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.readEl {
+    font-weight: bold;
+    font-size: 75%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 120%;
+}
+
+.timeEl {
+    font-size: 75%;
+    margin: 0px;
+    padding: 0px;
+    line-height: 120%;
+}
+
+#control {
+    background-color: var(--local-color8);
+    position: relative;
+    top: 120px;
+    left: -20px;
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+.controlDivs {
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.online {
+    color: var(--local-color2);
+}

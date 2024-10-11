@@ -1,0 +1,26 @@
+.profileInput {
+    border: 2px solid var(--color3);
+    background-color: var(--color3);
+    color: var(--color2);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#profileImage {
+    transition: 0.2s;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+/* animations */
+.profileInput:hover {
+    border: 2px solid var(--color2);
+}
+
+#profileImage:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}

@@ -1,0 +1,326 @@
+{
+    "Life School and Work": [
+        {
+            "0": "Broken up",
+            "1": "Lost wallet",
+            "title": "What makes you the saddest:",
+            "-1": "Misunderstood by boss"
+        },
+        {
+            "0": "Squeeze into juice",
+            "1": "Eat fresh",
+            "title": "What is your favorite usage of fruit?",
+            "-1": "Make fruit salad"
+        },
+        {
+            "1": "Head and face",
+            "title": "When taking a shower, which part do you wash first?",
+            "0.4": "Hands",
+            "0.3": "Arms",
+            "-0.8": "Feet",
+            "-0.3": "Trunk",
+            "0.7": "Private parts"
+        },
+        {
+            "1": "Crossing legs (left leg on right leg)",
+            "title": "Please choose your favorite seating posture among the following?",
+            "-0.8": "Crossing legs (right leg on left leg)",
+            "-0.5": "Knees pressed against each other, legs forming an inward eight shape",
+            "0.5": "Crossed ankles",
+            "0.8": "Feet apart",
+            "-1": "Legs together"
+        },
+        {
+            "1": "sofa and furnishings in the living room",
+            "title": "When you are decorating a new house, which part will you spend the most money on?",
+            "0.3": "bedroom bed",
+            "-0.3": "bathroom",
+            "-1": "kitchen"
+        },
+        {
+            "1": " a large bouquet of flowers",
+            "title": "On your birthday, what do you want most?",
+            "0.3": " a luxury car",
+            "-0.3": "a mansion",
+            "-1": "a good book"
+        },
+        {
+            "1": "Drink it while it is hot",
+            "title": "Assuming that in the afternoon of leisure, you are sitting on the balcony reading a book with bursts of coolness, with a cup of hot black tea in front of you, you will:",
+            "0.3": "Drink slowly while it is hot",
+            "-0.3": "Drink slowly, it doesn’t matter if it’s cold",
+            "-1": " Drink slowly, stop drinking when it is cold"
+        },
+        {
+            "1": "bed",
+            "title": "If your room is square, what would you place in the upper right corner of the room?",
+            "0.3": "TV",
+            "-0.3": "closet",
+            "-1": "plants"
+        }
+    ],
+    "Conditions and Reactions": [
+        {
+            "0": "girlfriend",
+            "1": "friends from school days",
+            "title": "A young girl is drinking coffee in a cafe, who do you think is sitting next to or opposite her?",
+            "0.3": "boyfriend",
+            "-0.3": "two female companions",
+            "-1": "nobody"
+        },
+        {
+            "1": "Designer clothing with discounts due to changing seasons",
+            "title": "If you pass by a department store on the way from get off work, what will attract your attention and stop you from going home?",
+            "0.3": "An old entertainer who performed on the street",
+            "-0.3": "Newly opened snack street",
+            "-1": "Meet an ex boyfriend/girlfriend friend by chance"
+        },
+        {
+            "0": "candy",
+            "1": "chewing gum",
+            "title": "You can only buy one of the following three convenience store snacks, which one would you buy?",
+            "-1": "chocolate"
+        },
+        {
+            "1": "Bravely run back home",
+            "title": "Faced with sudden heavy rain, what would you do?",
+            "0.3": "Go to the nearest convenience store to buy an umbrella and return home",
+            "-0.3": "Call someone at home and wait for them to pick me up",
+            "-1": "Wait for the rain to subside before going back home"
+        },
+        {
+            "1": "Become a coral",
+            "title": "Which of the following do you want to become?",
+            "0.3": "Become two fish",
+            "-0.3": "Become a group of fish",
+            "-1": "Become a sea snake"
+        },
+        {
+            "1": "Regardless of the cost of shipping or the hassle, request for a return immediately.",
+            "title": "You purchased a piece of clothing online, but upon receiving it, you find that it differs from the picture and is a bit small. What would you do in this situation?",
+            "0.3": "Oh well, consider yourself unlucky and never buy clothes from this seller again.",
+            "-0.3": "Put it on a auction site and resell it to someone else.",
+            "-1": "Give it to someone suitable and make someone happy."
+        },
+        {
+            "1": "Throw a bunch of hair magazines at them and let them decide for you",
+            "title": "When you go to the hair salon to get a haircut, how would you communicate your haircut needs to the hairstylist?",
+            "0.3": "Verbally explain your haircut idea to the stylist",
+            "-0.3": "Give a picture and ask the stylist to cut it accordingly",
+            "-1": "Allow the hairstylist to cut your hair as they wish"
+        },
+        {
+            "1": "green and tender grass",
+            "title": "If you have your own garden, you can plant any plants you like in the garden, what kind of plants will you plant in the garden?",
+            "0.3": "lush trees",
+            "-0.3": "fragrant flowers",
+            "-1 ": "plants that bear fruit"
+        }
+    ],
+    "Myths and Imagination": [
+        {
+            "1": "Run to the small garden in the south",
+            "title": "Suppose you are a farmer, and suddenly one day the old man next door came to tell you that my chicken ran away, then your first reaction: In which direction did the chicken run?",
+            "0.3": "Run to the swamp to the west",
+            "-0.3": "Run to the pond to the east",
+            "-1": "Go to the high mountains to the north"
+        },
+        {
+            "0": "Sheep",
+            "1": "Tiger",
+            "title": "There's an animal that brings good news at your doorstep. What animal do you instinctively think it is?",
+            "0.5": "Dog",
+            "-0.5": "Parrot",
+            "0.3": "Elephant",
+            "-1": "Turtle"
+        },
+        {
+            "0": "Middle finger",
+            "1": "Thumb",
+            "title": "Which finger do you like the most?",
+            "0.5": "Index finger",
+            "-0.5": "Ring finger",
+            "-1": "Little finger"
+        },
+        {
+            "0": "Colorful star candy",
+            "1": "Red and white striped sugar",
+            "title": "You are walking in the forest, suddenly Venus, the god of love, appears, and she wants to give you a love candy, which of the following do you think she will give you?",
+            "0.5": "color diamond candy",
+            "-0.5": "white cube sugar",
+            "-1": "orange round sugar"
+        },
+        {
+            "1": "Under the cloudless sky, run freely on the boundless grassland",
+            "title": "Which of the following situations will be your favorite?",
+            "0.3": "On a cloudy day without sunshine, stand on the edge of a cliff and enjoy the strong wind",
+            "-0.3": "On rainy days, watching the bustling crowd coming and going outside the window",
+            "-1": "Storm, thunder and lightning weather, hiding in the quilt and screaming"
+        },
+        {
+            "0": " You can eat delicious food on time every day without hard work",
+            "1": "I can sleep every day until I wake up naturally, and I can continue to sleep when I am sleepy",
+            "title": "What do you think is the happiest thing about being a pet?",
+            "-1": "No need to be popular, be loved by the master every day"
+        }
+    ],
+    "Love": [
+        {
+            "1": "Fully agree and pretend to be willing",
+            "title": "What do you do when your lover asks you to do something that you may not be able to do?",
+            "0.3": "Slightly hesitant but still very happy to agree",
+            "-0.3": "Refuse tactfully, and ask for forgiveness",
+            "-1": "A quick refusal means that it cannot be done"
+        },
+        {
+            "0": "Absolutely not",
+            "1": "Of course",
+            "title": "Would you be friends with your ex girfriend/boyfriend after the breakup?",
+            "-1": "It depends on the situation"
+        },
+        {
+            "0": "Follow my lover",
+            "1": "Go ask for directions on my own",
+            "title": "You lost your way while going on a trip with your lover, what would you do?",
+            "-1": "Let my lover ask for directions"
+        },
+        {
+            "0": "Fresh flowers",
+            "1": "Painting",
+            "title": "Your crush is moving away, what would you give as a gift?",
+            "-1": "Pizza"
+        },
+        {
+            "1": "Take a walk on the beach together",
+            "title": "If you have a boyfriend/girlfriend, which of the following do you think will be your favorite thing to do together?",
+            "0.3": "Go shopping together",
+            "-0.3": "Have afternoon tea at a cafe together",
+            "-1": "Chat or watch a movie together"
+        },
+        {
+            "0": "Too ugly face",
+            "1": "Too fat or too short",
+            "title": "If you go online to meet a friend and invite them out, what is the one flaw that you can't stand that would make you immediately turn your back on them?",
+            "0.5": "Too vulgar in speech",
+            "-0.5": "No proper profession",
+            "-1": "Too young or too old"
+        },
+        {
+            "0": "Fold once and throw away",
+            "1": "Throw them into the trash can",
+            "title": "When you decide to break up to your boyfriend/girlfriend, and you are going to throw away the letters and cards he wrote to you, what method will you use to deal with it?",
+            "0.5": "Wrap carefully before throwing away",
+            "-0.5": "Roll up and throw away",
+            "-1": "Shred them up and throw away"
+        }
+    ],
+    "Interest": [
+        {
+            "0": "Play boardgames",
+            "1": "Play video games",
+            "title": "Which do you prefer most in your free time?",
+            "0.8": "Watch videos",
+            "0.5": "Listen to songs",
+            "-0.3": "Play music",
+            "-0.7": "Make art",
+            "-1": "Do sports"
+        },
+        {
+            "0": "Blue",
+            "1": "Red",
+            "title": "Which color do you like the most?",
+            "0.8": "Orange",
+            "0.6": "Yellow",
+            "0.4": "White",
+            "0.2": "Green",
+            "-0.2": "Indigo",
+            "-0.4": "Purple",
+            "-0.6": "Black",
+            "-0.8": "Grey",
+            "-1": "Brown"
+        },
+        {
+            "0": "Table tennis",
+            "1": "Basketball",
+            "title": "Which sport do you like the most?",
+            "0.7": "Volleyball",
+            "0.4": "Baseball",
+            "0.2": "Track and field",
+            "-0.2": "Soccer",
+            "-0.5": "Swimming",
+            "-0.7": "Tennis",
+            "-0.9": "Golf",
+            "-1": "Badminton"
+        },
+        {
+            "0": "Table tennis",
+            "1": "Basketball",
+            "title": "Which sports competition do you like to watch the most?",
+            "0.7": "Volleyball",
+            "0.4": "Baseball",
+            "0.2": "Track and field",
+            "-0.2": "Soccer",
+            "-0.5": "Swimming",
+            "-0.7": "Tennis",
+            "-0.9": "Golf",
+            "-1": "Badminton"
+        },
+        {
+            "0": "Cat",
+            "1": "Dog",
+            "title": "Which animal do you like the most?",
+            "0.5": "Bird",
+            "-0.5": "Fish",
+            "0.2": "Guinea pig",
+            "0.4": "Rabbit",
+            "-1": "Parastratiosphecomyia stratiosphecomyioides"
+        },
+        {
+            "0": "Gangsters",
+            "1": "Hairy spiders",
+            "title": "Which are you most afraid of?",
+            "0.9": "Cockroaches",
+            "0.8": "Mice",
+            "-0.7": "Engineering mathematics",
+            "0.5": "Standing on tall buildings",
+            "-0.9": "AI with potential to conquer humans",
+            "-1": "Classmates who always get A+"
+        },
+        {
+            "0": "Grape",
+            "1": "Banana",
+            "title": "Which fruit do you like the most?",
+            "0.7": "Papaya",
+            "0.3": "Orange",
+            "-0.3": "Pineapple",
+            "-0.7": "Blueberry",
+            "-1": "Lemon"
+        },
+        {
+            "0": "Candy",
+            "1": "Ice cream",
+            "title": "Which treat do you like the most?",
+            "0.5": "French fries",
+            "-0.5": "Chocholate",
+            "-1": "Birthday cake"
+        },
+        {
+            "0": "German pork knuckle",
+            "1": "Taco",
+            "title": "Which food do you like the most?",
+            "0.7": "Pizza",
+            "0.3": "Spaghetti",
+            "-0.2": "Fried vegetables",
+            "-0.4": "Healthy salad",
+            "-0.6": "Sushi",
+            "-1": "Beef noodles"
+        },
+        {
+            "0": "Square",
+            "1": "Triangle",
+            "title": "Which shape do you like the most?",
+            "0.5": "Circle",
+            "-1": "Rhombicosidodecahedron"
+        }
+    ]
+}

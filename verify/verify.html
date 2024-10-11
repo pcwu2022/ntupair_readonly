@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTU Pair</title>
+    <link href="./files/default/ntupair.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="verify.css">
+</head>
+<body>
+    <div id = "header">
+        <h1 id = "title" title="back to homepage"><img src="./files/default/ntupair_inverse_bg.png" alt="logo" id="logo">NTU Pair</h1>
+        <div id = "functions">
+            <div id="sticker"><img src="https://www.webpagescreenshot.info/image-url/a5yCJ8Njm" id="profilePhoto" alt="profile photo"></div>
+            <div id="username"></div>
+            <div id="buttonList">
+                <button id="profile" class="submit functions">Profile</button><br>
+                <button id="chatbox" class="submit functions">Chatbox</button><br>
+                <button id="logout" class="submit functions">Log Out</button><br>
+            </div>
+        </div>
+    </div>
+    <div id = "control">
+        
+    </div>
+    <div id = "main">
+        <h3>Verify your account</h3>
+        <div id="discription">
+            NTU Pair is available to every user on the internet, including scammers and impostors.
+            To provide a safe environment for students to match and communicate,
+            we recommend verifying your account using NTU Webmail system, G-Suite, 
+            or custom email services if you don't have an NTU id.
+            <br><br>
+            Due to the school policies and the Webmail spam filtering algorithm, 
+            our verification email might be intercepted and sent to the spam folder.
+            Thus, it is more recommended to use G-Suite for verification.
+            If you use Webmail to verify your account but fail to recieve a verification email,
+            it means our email is intercepted on the way. Please go to the spam folder on
+            <a href="https://mfilter.ntu.edu.tw:83/">https://mfilter.ntu.edu.tw:83/</a> to retrieve the mail
+            or wait for the "Spam Quarantine Notification" to view the mail.
+            <br>
+        </div>
+        <button class="submit" id="gsuite">Verify by NTU G-Suite (Recommended)</button>
+        <button class="submit" id="webmail">Verify by NTU Webmail</button>
+        <button class="submit" id="customEmail">Verify by Custom Email (For non-NTU only)</button>
+        <div id="verifyForm">
+            <div id="verifyDiscription"></div>
+        </div>
+    </div>
+    <script src="ajax.js"></script>
+    <script src="display.js"></script>
+    <script src="verify.js"></script>
+</body>
+</html>
